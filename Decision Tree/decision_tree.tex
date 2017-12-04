@@ -64,9 +64,9 @@
     For machine one :\\
     [1mm]
     \begin{math}
-      nbr\_of\_bounces = p_a * 1 + p_b * 3 + p_c * 3 + p_d * 2\\
-      nbr\_of\_bounces = 0.50 * 1 + 0.125 * 3 + 0.125 * 3 + 0.25 * 2\\
-      nbr\_of\_bounces = 1.75\ bounces\ to\ reach\ an\ answer
+      \#bounces = p_a \times 1 + p_b \times 3 + p_c \times 3 + p_d \times 2\\
+      \#bounces = 0.50 \times 1 + 0.125 \times 3 + 0.125 \times 3 + 0.25 \times 2\\
+      \#bounces = 1.75\ bounces\ to\ reach\ an\ answer
     \end{math}
     \\
     [2mm]
@@ -74,9 +74,9 @@
     For machine two :\\
     [1mm]
     \begin{math}
-      nbr\_of\_bounces = p_a * 1 + p_b * 3 + p_c * 3 + p_d * 2\\
-      nbr\_of\_bounces = 0.25 * 2 + 0.25 * 2 + 0.25 * 2 + 0.25 * 2\\
-      nbr\_of\_bounces = 2\ bounces\ to\ reach\ an\ answer
+      \#bounces = p_a \times 1 + p_b \times 3 + p_c \times 3 + p_d \times 2\\
+      \#bounces = 0.25 \times 2 + 0.25 \times 2 + 0.25 \times 2 + 0.25 \times 2\\
+      \#bounces = 2\ bounces\ to\ reach\ an\ answer
     \end{math}
     \\
     [4mm]
@@ -89,5 +89,22 @@
     [2mm]
     Which means machine 1 will produce less information. It also means
     that there less \textbf{incertainty} with \textit{machine 1}. This is called \textbf{entropy}
-
+    \\
+    [4mm]
+    \\
+    \textit{Entropy is the value H}\\
+    \textit{Probability is represented by p}
+    \\
+    [2mm]
+    \\
+    \begin{math}
+      H=\sum_{i=1}^np_i\times\#bounces_i\\
+      [4mm]
+      \#bounces=\log_2(\#outcomes)\\
+      \#outcomes=\frac{1}{p}\\
+      \#bounces = \log_2(\frac{1}{p})\\
+      [4mm]
+      H=\sum_{i=1}^np_i\times\log_2\frac{1}{p_i}\\
+    \end{math}
+    [4mm]
 \end{document}
