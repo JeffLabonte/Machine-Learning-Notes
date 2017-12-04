@@ -14,5 +14,5 @@ some knowledge on the matter and try to make it understandable for everyone.
 
 #### Decision Tree ####
 
-https://www.khanacademy.org/computing/computer-science/informationtheory/moderninfotheory/v/information-entropy
-https://simple.wikipedia.org/wiki/Information_entropy
+* https://www.khanacademy.org/computing/computer-science/informationtheory/moderninfotheory/v/information-entropy
+* https://simple.wikipedia.org/wiki/Information_entropy
